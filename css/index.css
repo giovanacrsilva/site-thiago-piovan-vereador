@@ -1,0 +1,182 @@
+body {
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 600 !important;
+}
+
+@font-face {
+    font-family: edo-sz;
+    src: url(/fonts/edosz.ttf);
+}
+
+.edo-sz-font {
+    font-family: edo-sz;
+    font-size: 2.5rem !important;
+}
+
+.bg-dark-blue {
+    background-color: #0b264f;
+}
+
+.bg-dark-yellow {
+    background-color: #edc217;
+}
+
+.bg-golden-yellow {
+    background-color: #d9ca24;
+}
+
+.bg-bright-blue {
+    background-color: #034e8c;
+}
+
+.footer {
+    padding: 1.3rem 0;
+}
+
+.footer p {
+    margin: unset;
+}
+
+#minha-historia {
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+}
+
+a.cv-btn {
+    background-color: #034e8c !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #d9ca24;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.9rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a.cv-btn:hover {
+    background-color: #d9ca24 !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #034e8c;
+    text-decoration: none;
+}
+
+.cv-btn img {
+    width: 2.7rem;
+    padding: 0 0.6rem 0 0;
+}
+
+.b-e-p-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bandeiras-e-propostas p {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.dark-yellow-font {
+    color: #edc217;
+    text-shadow: #000 0.09rem 0.09rem 0.09rem;
+}
+
+.detalhes-btn {
+    background-color: #d9ca24 !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.9rem;
+    color: #000;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a.detalhes-btn:hover {
+    background-color: #000 !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #d9ca24;
+    text-decoration: none;
+    color: #d9ca24;
+}
+
+.detalhes-btn i {
+    font-size: 1.4rem;
+    padding: 0 0.6rem 0 0;
+}
+
+#participe {
+    font-size: 1.5rem;
+}
+
+.p-section-font {
+    text-shadow: #fff 0.03rem 0.09rem 0.09rem;
+}
+
+.whatsapp-icon {
+    width: 4.5rem;
+}
+
+.redes-sociais i {
+    font-size: 6.5rem;
+    color: #034e8c;
+    margin-bottom: 1rem;
+}
+
+#myCarousel {
+    margin: 0 0 1rem 0;
+}
+
+#myCarousel a.carousel-control-prev i,
+#myCarousel a.carousel-control-next i {
+    top: calc(50% - 20px);
+}
+
+#myCarousel a.carousel-control-prev {
+    left: -2.3vw;
+}
+
+#myCarousel a.carousel-control-next {
+    right: -2.3vw;
+}
+
+.fas.fa-angle-left,
+.fas.fa-angle-right {
+    color: gray;
+    font-size: 6rem;
+}
+
+.carousel-item {
+    margin: 0 3rem;
+}
+
+.carousel-item img {
+    margin: 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main img {
+    width: 100%;
+}
+
+.whatsapp-scroll-wrapper img {
+    position: fixed; /* o causador da barra de rolagem horizontal quando a tela está pequena*/
+    text-align: center;
+    z-index: 99999999;
+    width: 5rem;
+    right: 1%;
+    bottom: 2%;
+}
